@@ -1,9 +1,16 @@
 /* =========common code start ============ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+:root {
+    --white: #fff;
+    --primary: #282938;
+    --yellow: #FCD980;
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 a{
     text-decoration: none;
@@ -21,8 +28,52 @@ h1,h2,h3,h4,h5,h6,p {
 }
 /* =========common code end ============ */
 
-/* =========common code start ============ */
-/* =========common code end ============ */
+/* =========Navbar code start ============ */
+nav {
+    background-color: blueviolet;
+    padding: 16px 0;
+}
+.nav_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 48px;
+}
+.nav_menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 32px;
+}
+.nav_menu ul li a {
+    color: #BBBBCB;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 175%;
+    text-transform: capitalize;
+    transition: all linear .3s;
+}
+.nav_menu ul li a:hover{
+    color: var(--white);
+}
+.nav_btn a{
+    color: var(--white);
+    text-transform: capitalize;
+    padding: 16px 48px;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    border-radius: 48px;
+    transition: all linear .3s;
+}
+.nav_btn a:hover {
+    background-color: #FCD980;
+    color: var(--primary);
+}
+/* =========Navbar code end ============ */
 
 /* =========common code start ============ */
 /* =========common code end ============ */
