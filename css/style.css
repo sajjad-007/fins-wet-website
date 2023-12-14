@@ -50,8 +50,11 @@ h1,h2,h3,h4,h5,h6,p {
 
 /* =========Navbar code start ============ */
 nav {
-    background-color: blueviolet;
     padding: 16px 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
 }
 .nav_wrapper {
     display: flex;
