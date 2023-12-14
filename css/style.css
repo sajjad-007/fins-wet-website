@@ -27,9 +27,9 @@ h1,h2,h3,h4,h5,h6,p {
     margin: 0 auto;
 }
 .paragraph {
-    color: var(--white);
+    color: var(--primary);
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 175%;
 }
 .heading {
@@ -96,6 +96,48 @@ nav {
 /* =========Navbar code end ============ */
 
 /* =========banner code start ============ */
+#banner {
+    background-color: #1C1E53;
+    padding: 218px 0 128px 0;
+}
+.banneer_wrapper {
+    display: flex;
+    column-gap: 60px;
+}
+.banner_content h1{
+    width: 582px;
+    color:var(--white);
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 137%;
+    text-transform: capitalize;
+}
+.banner_content p {
+    width: 562px;
+    margin-top: 24px;
+    color: var(--white);
+    font-weight: 500;
+}
+.banner_btn{
+    margin-top: 48px;
+}
+.banner_btn a {
+    padding: 16px 56px;
+    color: var(--primary);
+    background-color: var(--yellow);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 177%;
+    border-radius: 41px;
+}
+.banner_btn a i {
+    margin-left: 16px;
+    color: white;
+}
+.banner_btn a:last-child {
+    background-color: transparent;
+    color: white;
+}
 /* =========banner code end ============ */
 
 /* =========common code start ============ */
