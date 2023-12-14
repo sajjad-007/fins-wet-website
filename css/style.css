@@ -1,0 +1,40 @@
+/* =========common code start ============ */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol {
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+    line-height: .8;
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+/* =========common code end ============ */
+
+/* =========common code start ============ */
+/* =========common code end ============ */
+
+/* =========common code start ============ */
+/* =========common code end ============ */
+
+/* =========common code start ============ */
+/* =========common code end ============ */
+
+/* =========common code start ============ */
+/* =========common code end ============ */
+
+/* =========common code start ============ */
+/* =========common code end ============ */
+
+/* =========common code start ============ */
+/* =========common code end ============ */
