@@ -26,6 +26,26 @@ h1,h2,h3,h4,h5,h6,p {
     width: 1280px;
     margin: 0 auto;
 }
+.paragraph {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 175%;
+}
+.heading {
+    color: var(--primary);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 134%;
+    text-transform: capitalize;
+}
+.sub_heading {
+    color: var(--primary);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: capitalize;
+}
 /* =========common code end ============ */
 
 /* =========Navbar code start ============ */
@@ -75,8 +95,8 @@ nav {
 }
 /* =========Navbar code end ============ */
 
-/* =========common code start ============ */
-/* =========common code end ============ */
+/* =========banner code start ============ */
+/* =========banner code end ============ */
 
 /* =========common code start ============ */
 /* =========common code end ============ */
