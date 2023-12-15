@@ -521,8 +521,99 @@ nav {
 }
 /* =========FAQ code end ============ */
 
-/* =========common code start ============ */
-/* =========common code end ============ */
+/* =========Inquiry code start ============ */
+.inquiry_wrapper {
+    display: flex;
+}
+.inquiry_img {
+    width: 656px;
+    height: 691px;
+    overflow: hidden;
+    position: relative;
+}
+.inquiry_img picture {
+    width: inherit;
+    height: inherit;
+}
+.inquiry_img img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.inquiry_img .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 30, 83, 0.50);
+    padding: 108px;
+}
+.inquiry_img .overlay h2 {
+    color: var(--white);
+}
+.inquiry_img .overlay p{
+    color: var(--white);
+    margin-top: 24px;
+}
+.inquiry_form {
+    width: 624px;
+    background-color: #1C1E53;
+    padding: 96px 96px 48px 96px;
+}
+.inquiry_form h4 {
+    color: var(--white);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.inquiry_form p {
+    color: var(--white);
+    margin: 16px 0 40px 0;
+}
+.inquiry_form  form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    border: none;
+    
+}
+.inquiry_form  form input{
+    height: 64px;
+    width: 432px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    padding: 18px 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175px;
+    background-color: transparent;
+    color: var(--white);
+}
+.inquiry_form  form input::placeholder {
+    text-transform: capitalize;
+    color: rgba(244, 246, 252, 0.512);
+}
+.inquiry_form  form button {
+    color: var(--primary);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 177%;
+    padding: 15px 51px;
+    background-color: var(--yellow);
+    border-radius: 41px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+.inquiry_form a  {
+    color: var(--white);
+    text-align: center;
+    margin-top: 12px;
+}
+.inquiry_form a i {
+   margin-left: 10px;
+}
+/* =========Inquiry code end ============ */
 
 /* =========common code start ============ */
 /* =========common code end ============ */
