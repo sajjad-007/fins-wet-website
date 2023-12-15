@@ -385,5 +385,85 @@ nav {
 }
 /* =========Design code end ============ */
 
+/* =========review code start ============ */
+#about {
+    padding: 130px 0;
+    background-color: rgba(244, 246, 252, 0.504);
+    border: 1px solid rgba(0, 0, 0, 0.505);
+}
+.about_wrapper {
+    display: flex;
+    column-gap: 110px;
+    /* margin-top: 128px; */
+}
+.about_heading {
+    width: 414px;
+    margin-top: 128px;
+}
+.about_heading h2 {
+    width: 414px;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+.about_heading p {
+    width: 414px;
+}
+.about_client_info {
+    width: 756px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+    margin-top: 128px;
+}
+.client_message h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 150%;
+    color: var(--primary);
+    width: 756px;
+}
+.client_data {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    margin-top: 48px;
+}
+.client_img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.client_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.client_cont {
+    width: 183px;
+}
+.client_cont h4{
+    color: var(--primary);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 177%;
+    text-transform: capitalize;
+}
+.client_cont h5{
+    color: var(--primary);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 233%;
+    text-transform: capitalize;
+}
+
+/* =========review code end ============ */
+
+/* =========common code start ============ */
+/* =========common code end ============ */
+
+/* =========common code start ============ */
+/* =========common code end ============ */
+
 /* =========common code start ============ */
 /* =========common code end ============ */
