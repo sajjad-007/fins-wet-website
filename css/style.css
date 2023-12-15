@@ -47,6 +47,13 @@ h1,h2,h3,h4,h5,h6,p {
     line-height: 150%;
     text-transform: capitalize;
 }
+.view_arrow {
+    color: var(--yellow);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 175%;
+    text-transform: capitalize;
+}
 /* =========common code end ============ */
 
 /* =========Navbar code start ============ */
@@ -182,7 +189,6 @@ nav {
     color: var(--blue);
     font-size: 18px;
     font-weight: 500;
-    line-height: 177%;
     display: flex;
     align-items: center;
     column-gap: 10px;
@@ -225,8 +231,112 @@ nav {
 }
 /* =========work code end ============ */
 
-/* =========common code start ============ */
-/* =========common code end ============ */
+/* =========View code start ============ */
+#view {
+    padding: 128px 0;
+}
+.view_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.view_heading a{
+    color: var(--primary);
+}
+.view_headinga i{
+    margin-left: 16px;
+}
+.view_content {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+}
+.big_item {
+    width: 843px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+.big_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.big_item .overlay {
+    height: 100%;
+    width: 396px;
+    position: absolute;
+    left: -396px;
+    top: 0;
+    background-color: rgba(28, 30, 83, 0.55);
+    z-index: 66;
+    padding: 312px 35px 76px 48px;
+    transition: all linear .3s;
+}
+.big_item:hover .overlay{
+    left: 0;
+}
+.big_item .overlay h4 {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    width: 313px;
+}
+.big_item .overlay p {
+    width: 293px;
+    color: var(--white);
+    margin-bottom: 40px;
+}
+.view_content a i{
+    margin-left: 16px;
+}
+.tiny_item {
+    width: 405px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.tiny_box {
+    width: 100%;
+    height: 284px;
+    overflow: hidden;
+    position: relative;
+}
+.tiny_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tiny_box .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 30, 83, 0.55);
+    transition: all linear .3s;
+    padding: 129px 36px 45px 56px;
+    opacity: 0;
+    visibility: hidden;
+}    
+.tiny_box:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+}
+.tiny_box .overlay h4 {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 10px;
+    width: 292px;
+}
+
+/* =========View code end ============ */
 
 /* =========common code start ============ */
 /* =========common code end ============ */
