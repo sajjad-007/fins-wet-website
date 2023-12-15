@@ -338,8 +338,52 @@ nav {
 
 /* =========View code end ============ */
 
-/* =========common code start ============ */
-/* =========common code end ============ */
+/* =========Design code start ============ */
+#design{
+    padding-left: 128px 0;
+    background-color: #F4F6FC;   
+}
+.design_heading h5 {
+    color: var(--primary);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 175%;
+    text-transform: capitalize;
+    text-align: center;
+}
+.design_heading h2 {
+   width: 630px;
+   margin: 12px auto 48px auto;
+   text-align: center;
+}
+.design_wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 24px;
+}
+.design_item {
+    padding: 58px 32px 48px 48px;
+    width: 405px;
+}
+.design_icon i {
+    color: var(--blue);
+    font-size: 32px;
+}
+.design_item h4 {
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: capitalize;
+    margin: 22px 0 12px 0;
+    width: 314px;
+}
+.design_item .paragraph {
+    width: 324px;
+}
+/* =========Design code end ============ */
 
 /* =========common code start ============ */
 /* =========common code end ============ */
