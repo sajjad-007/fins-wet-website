@@ -127,20 +127,38 @@ nav {
 }
 .banner_btn a {
     padding: 16px 56px;
-    color: var(--primary);
-    background-color: var(--yellow);
+    color: var(--white);
+    background-color: transparent;
+    border: 1px solid var(--primary);
     font-size: 18px;
     font-weight: 600;
     line-height: 177%;
     border-radius: 41px;
+    transition: all linear .3s;
+}
+.banner_btn a:hover {
+    color: var(--primary);
+    background-color: var(--yellow);
 }
 .banner_btn a i {
     margin-left: 16px;
+    vertical-align: center;
+    font-size: 16px;
+    width: 24px;
     color: white;
 }
 .banner_btn a:last-child {
     background-color: transparent;
     color: white;
+    border: none;
+    transition: all linear .3s;
+}
+.banner_btn a:last-child:hover {
+    background-color: var(--yellow);
+    color: var(--primary);
+}
+.banner_btn a:last-child:hover i {
+    color: var(--primary);
 }
 /* =========banner code end ============ */
 
