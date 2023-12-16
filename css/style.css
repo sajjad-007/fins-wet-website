@@ -615,5 +615,56 @@ nav {
 }
 /* =========Inquiry code end ============ */
 
+/* =========blog code start ============ */
+#blog{
+    padding: 128px 0;
+}
+.blog_heading h2 {
+    margin-bottom: 64px;
+}
+.blog_main {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-between;
+}
+.blog_main .blog_img {
+    height: 285px;
+    width: 405px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.blog_img picture {
+    width: inherit;
+    height: inherit;
+}
+.blog_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.blog_content {
+    width: 405px;
+}
+.blog_content h4{
+    color: var(--primary);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    margin: 16px 0 16px 0;
+}
+.blog_content a {
+    color: var(--primary);
+    margin-top: 32px;
+}
+.blog_content a i {
+    margin-left: 13px;
+}
+/* =========blog code end ============ */
+
+/* =========common code start ============ */
+/* =========common code end ============ */
+
 /* =========common code start ============ */
 /* =========common code end ============ */
