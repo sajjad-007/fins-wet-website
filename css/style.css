@@ -663,8 +663,58 @@ nav {
 }
 /* =========blog code end ============ */
 
-/* =========common code start ============ */
-/* =========common code end ============ */
+/* =========footer1 code start ============ */
+#footer1 {
+    padding-top: 100px;
+    background-color: #1C1E53;
+}
+.footer1_wrapper {
+    display: flex;
+    column-gap: 141px;
+}
+.footer1_part1 {
+
+}
+.footer1_logo p {
+    color: var(--white);
+    width: 399px;
+    margin-top: 22px;
+}
+.footer1_part1_contact {
+    background-color: var(--yellow);
+    margin-top: 86px;
+    width: 517px;
+    padding: 18px 137px 17px 37px;
+    display: flex;
+    column-gap: 29px;
+    align-items: center;
+}
+.part1_contact_info1 h5{
+    color: var(--primary);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 177%;
+    margin-bottom: 1px;
+}
+.part1_contact_info1 {
+    opacity: .8;
+}
+.footer1_part2 h2 ,.footer1_part2_icon{
+    color: var(--white);
+}
+.footer1_part2 p{
+    margin: 14px 0 28px 0;
+    color: var(--white);
+}
+.footer1_part2_icon {
+    display: flex;
+    align-items: center;
+    column-gap: 26.67px;
+}
+.footer1_part2_icon i {
+    font-size: 20px;
+}
+/* =========footer1 code end ============ */
 
 /* =========common code start ============ */
 /* =========common code end ============ */
