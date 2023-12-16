@@ -717,4 +717,16 @@ nav {
 /* =========footer1 code end ============ */
 
 /* =========common code start ============ */
+#footer2 {
+    margin: 32px 0;
+    background-color: var(--white);
+}
+.footer2_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer2_menu .nav_menu ul li a {
+    color: var(--primary);
+}
 /* =========common code end ============ */
