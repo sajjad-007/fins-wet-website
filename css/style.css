@@ -705,6 +705,7 @@ nav {
 .footer1_part2 p{
     margin: 14px 0 28px 0;
     color: var(--white);
+    width: 399px;
 }
 .footer1_part2_icon {
     display: flex;
